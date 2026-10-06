@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.reticle-setup-crash.log
+.remember/
+scratch/
+knowledge_cache.json
+index/
