@@ -1,0 +1,14 @@
+Name: Karan Malhotra
+Headline: Aspiring Software Developer
+
+SKILLS
+Python, Java, C++, JavaScript, TypeScript, React, Angular, Vue.js, Node.js, Express, MongoDB, MySQL, PostgreSQL, Redis, Docker, Kubernetes, AWS, Azure, GCP, Machine Learning, Deep Learning, Blockchain, Django, Flask, Spring Boot, GraphQL, REST APIs, Kafka, Jenkins, Terraform, Linux, Git, Microservices, DevOps, TensorFlow, PyTorch, Next.js
+
+OBJECTIVE
+To work in a challenging position where I can use all my skills and grow with the company.
+
+EDUCATION
+B.Tech Computer Science, graduated 2024. Completed online courses.
+
+EXPERIENCE
+None yet.

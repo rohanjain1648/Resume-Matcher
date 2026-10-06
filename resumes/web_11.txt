@@ -1,0 +1,20 @@
+Name: Sameer Khan
+Headline: DevOps / Cloud Engineer who also writes Node.js
+
+SUMMARY
+4 yrs. Infra as code, CI/CD and cloud migrations. Can also write backend services in Node.js when needed.
+
+SKILLS
+AWS, Terraform, Docker, Kubernetes, Jenkins, GitHub Actions, Node.js, Python, Prometheus, Grafana, Linux
+
+EXPERIENCE
+DevOps Engineer, Skyline Logistics (Mar 2021 - Present)
+- Migrated 20 services from on-premise servers to AWS using Terraform and Kubernetes (EKS).
+- Built CI/CD pipelines in Jenkins and GitHub Actions, deployment time from 2 hours to 12 minutes.
+- Wrote a Node.js tracking API (Express, MongoDB) for the warehouse team.
+
+Systems Engineer, Infraserve (Aug 2019 - Feb 2021)
+- Managed Linux servers and monitoring with Prometheus and Grafana.
+
+EDUCATION
+B.Tech Electronics, SRM University, 2019

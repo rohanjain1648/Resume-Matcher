@@ -1,0 +1,20 @@
+Name: Pooja Singh
+Headline: Web Developer - Angular & Node
+
+SUMMARY
+4 years of experience in web application development using Angular on the front end and Node.js services at the back.
+
+SKILLS
+Angular, TypeScript, RxJS, Node.js, Express, MySQL, REST APIs, SASS, Karma, Azure DevOps
+
+EXPERIENCE
+Software Developer, Healthbridge (Feb 2021 - Present)
+- Built a patient appointment portal in Angular with RxJS state handling.
+- Wrote Node.js and Express APIs on MySQL for scheduling and reminders.
+- Deployed services to Azure App Service through Azure DevOps pipelines.
+
+Associate Developer, Nimbus Infotech (Jun 2020 - Jan 2021)
+- Developed Angular forms and Karma tests for an insurance claims app.
+
+EDUCATION
+B.Tech Computer Science, Amity University, 2020

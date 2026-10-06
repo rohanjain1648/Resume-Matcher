@@ -1,0 +1,21 @@
+Name: Rohit Banerjee
+Headline: Data Scientist
+
+SUMMARY
+5 years of applied machine learning for churn, pricing and recommendations. Equally happy talking to stakeholders and tuning models.
+
+SKILLS
+Python, scikit-learn, XGBoost, pandas, NumPy, SQL, statistics, feature engineering, MLflow, Jupyter, Airflow
+
+EXPERIENCE
+Senior Data Scientist, Telecomo (Jan 2021 - Present)
+- Built a churn model (XGBoost) that improved retention campaign precision by 27%.
+- Deployed models as batch jobs with Airflow and tracked experiments in MLflow.
+- Mentored 2 junior analysts on statistics and experiment design.
+
+Data Scientist, Pricewise (Jul 2018 - Dec 2020)
+- Created a demand forecasting model in Python for 3,000 SKUs.
+- Wrote SQL pipelines to prepare training data in Redshift.
+
+EDUCATION
+M.Sc. Statistics, ISI Kolkata, 2018

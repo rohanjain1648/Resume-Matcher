@@ -1,0 +1,20 @@
+Name: Ananya Das
+Headline: Python / Django developer
+
+SUMMARY
+5 years with Python web frameworks, mostly Django REST framework and PostgreSQL.
+
+SKILLS
+Python, Django, Django REST Framework, Flask, PostgreSQL, Celery, Redis, Docker, pytest, Linux
+
+EXPERIENCE
+Backend Developer, Learnloop (May 2019 - Present)
+- Built the Django REST API behind an e-learning platform with 40k students.
+- Moved slow email jobs to Celery workers with Redis, cutting API latency by half.
+- Containerised services with Docker and wrote pytest suites reaching 85% coverage.
+
+Python Developer, Datawave (Jun 2018 - Apr 2019)
+- Wrote Flask microservices for CSV imports.
+
+EDUCATION
+M.C.A., Pune University, 2018

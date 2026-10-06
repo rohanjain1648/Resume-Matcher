@@ -1,0 +1,7 @@
+Name: Kavya Reddy
+Headline: Data Engineer
+
+I am a data engineer with about 6 years of experience building batch and streaming pipelines. Currently at Streamly Media (Jan 2020 - Present) where I own the Spark and Kafka pipelines that move 2 TB a day into our Snowflake warehouse. I orchestrate the jobs in Airflow, write most transformations in PySpark and SQL, and keep costs under control on AWS (S3, Glue, EMR). Before that I worked at Databridge (Jun 2018 - Dec 2019) as an ETL developer using Informatica and Oracle. I enjoy data modelling and I wrote our internal guide for dbt conventions.
+
+Skills: Spark, PySpark, Kafka, Airflow, Snowflake, dbt, SQL, Python, AWS Glue, EMR, Informatica
+Education: B.Tech, RVCE Bengaluru

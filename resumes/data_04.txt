@@ -1,0 +1,15 @@
+Name: Faisal Ahmed
+Headline: Junior Data Analyst (fresher)
+
+SKILLS
+Excel, SQL, Power BI, Python basics
+
+PROJECTS
+- Analysed a Kaggle sales dataset in Excel and Python and presented findings in a Power BI report.
+- Wrote SQL queries on a sample Northwind database for a college project.
+
+EXPERIENCE
+3 month internship at a local retail shop, helped with inventory spreadsheets (Jun 2024 - Aug 2024).
+
+EDUCATION
+B.Sc Mathematics, 2024

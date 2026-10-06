@@ -1,0 +1,20 @@
+Name: Vikram Nair
+Headline: Java Backend Engineer
+
+SUMMARY
+6 years of backend experience in Java and Spring Boot. Mostly banking and payments systems.
+
+SKILLS
+Java, Spring Boot, Hibernate, Oracle, MySQL, Kafka, Microservices, REST APIs, Maven, JUnit, Jenkins
+
+EXPERIENCE
+Senior Java Developer, Paynet Systems (Apr 2019 - Present)
+- Designed Spring Boot microservices for card payment authorisation, 99.95% uptime.
+- Introduced Kafka for settlement events and removed nightly batch jobs.
+- Tuned Hibernate queries on Oracle and reduced report time from 40 to 6 minutes.
+
+Java Developer, Fincore Technologies (Jul 2017 - Mar 2019)
+- Maintained a loan origination service in Java 8 and MySQL.
+
+EDUCATION
+B.E. Computer Engineering, NIT Trichy, 2017

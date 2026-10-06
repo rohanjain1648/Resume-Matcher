@@ -1,0 +1,21 @@
+Name: Arjun Mehta
+Headline: Senior MERN Stack Developer
+
+SUMMARY
+Full-stack engineer with 6 years of experience shipping production web apps on the MERN stack. Comfortable owning a feature from schema design to deployment.
+
+SKILLS
+MongoDB, Express.js, React, Node.js, Redux, REST APIs, JWT, Jest, Docker, AWS (EC2, S3), Git
+
+EXPERIENCE
+Senior Software Engineer, Cartly Commerce (Mar 2021 - Present)
+- Led a team of 4 building a multi-vendor marketplace with the MERN stack serving 120k monthly users.
+- Designed REST APIs in Express and Node.js handling 2M requests per day.
+- Moved image uploads to AWS S3 and cut page load time by 35%.
+
+Software Engineer, Webnest Studio (Jun 2018 - Feb 2021)
+- Built admin dashboards in React and Redux for 9 client projects.
+- Modelled order and inventory data in MongoDB using Mongoose.
+
+EDUCATION
+B.Tech Computer Science, IIT Bombay, 2018

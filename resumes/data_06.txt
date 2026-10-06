@@ -1,0 +1,20 @@
+Name: Manish Gupta
+Headline: Machine Learning Engineer
+
+SUMMARY
+4 years taking deep learning models from notebook to production.
+
+SKILLS
+Python, PyTorch, TensorFlow, Computer Vision, NLP, Docker, FastAPI, AWS SageMaker, SQL, Git
+
+EXPERIENCE
+ML Engineer, Visionary Labs (Aug 2020 - Present)
+- Trained PyTorch image classifiers for defect detection, 94% accuracy on the production line.
+- Served models with FastAPI and Docker on AWS SageMaker.
+- Built an NLP pipeline that tags support tickets with a BERT model.
+
+Software Engineer, Visionary Labs (Jul 2019 - Jul 2020)
+- Wrote the data loaders and labeling tool in Python.
+
+EDUCATION
+B.Tech CSE, IIIT Hyderabad, 2019

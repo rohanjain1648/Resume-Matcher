@@ -1,0 +1,20 @@
+Name: Aditi Joshi
+Headline: BI Analyst (Power BI)
+
+SUMMARY
+2 years in business intelligence, strongest in Power BI and DAX.
+
+SKILLS
+Power BI, DAX, SQL Server, Excel, Power Query, SSRS, Data modelling
+
+EXPERIENCE
+BI Analyst, Cargoline (Mar 2022 - Present)
+- Developed 20 Power BI reports with DAX measures for freight cost and on-time delivery.
+- Designed star schemas in SQL Server and automated refreshes with Power Query.
+- Trained 30 business users to build their own reports.
+
+Reporting Intern, Cargoline (Sep 2021 - Feb 2022)
+- Built Excel MIS reports.
+
+EDUCATION
+MBA (Analytics), Symbiosis, 2021

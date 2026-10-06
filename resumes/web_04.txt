@@ -1,0 +1,20 @@
+Name: Sneha Iyer
+Headline: Frontend Developer (React)
+
+SUMMARY
+Frontend developer with 1 year of experience in React. Looking to grow into full-stack roles.
+
+SKILLS
+React, JavaScript, HTML5, CSS3, Bootstrap, Redux Toolkit, Git, Figma, Axios
+
+EXPERIENCE
+Frontend Developer, Finlytics (Sep 2023 - Present)
+- Build reusable React components for a loan comparison website.
+- Consume REST APIs with Axios and manage state with Redux Toolkit.
+- Convert Figma designs to responsive pages.
+
+Intern, Finlytics (Jan 2023 - Aug 2023)
+- Fixed CSS issues and wrote unit tests for form components.
+
+EDUCATION
+B.Sc Computer Science, Christ University, 2023

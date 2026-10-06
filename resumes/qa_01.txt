@@ -1,0 +1,20 @@
+Name: Harish Naidu
+Headline: QA Automation Engineer
+
+SUMMARY
+4 years in test automation for web applications.
+
+SKILLS
+Selenium, Cypress, JavaScript, TestNG, Java, Postman, JIRA, CI/CD, API testing
+
+EXPERIENCE
+QA Automation Engineer, Retailhub (Apr 2021 - Present)
+- Built a Cypress and JavaScript regression suite with 600 tests running in Jenkins on every merge.
+- Automated REST API tests in Postman and Newman.
+- Reduced production escapes by 40%.
+
+Manual Tester, Softcore Systems (Jun 2019 - Mar 2021)
+- Executed test cases and logged defects in JIRA.
+
+EDUCATION
+B.Tech IT, JNTU Hyderabad, 2019

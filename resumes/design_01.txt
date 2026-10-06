@@ -1,0 +1,20 @@
+Name: Zoya Siddiqui
+Headline: UI/UX Designer
+
+SUMMARY
+3 years designing mobile and web products. Research to hand-off.
+
+SKILLS
+Figma, User research, Wireframing, Prototyping, Design systems, Usability testing, Adobe XD, HTML and CSS basics
+
+EXPERIENCE
+Product Designer, Wallet Wise (Jun 2021 - Present)
+- Designed the onboarding flow that raised sign up completion by 22%.
+- Built and maintained a Figma design system used by 6 engineers.
+- Ran 25 usability tests and turned the findings into design changes.
+
+UI Designer, Creatives Hub (Jul 2020 - May 2021)
+- Designed landing pages and social media creatives.
+
+EDUCATION
+B.Des, NID Ahmedabad, 2020

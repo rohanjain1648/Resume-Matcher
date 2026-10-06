@@ -1,0 +1,20 @@
+Name: Leena Thomas
+Headline: Statistician / Analyst
+
+SUMMARY
+7 years in clinical and survey statistics. R is my main tool, SAS earlier in my career.
+
+SKILLS
+R, SAS, SQL, SPSS, regression, survival analysis, ggplot2, Shiny, report writing
+
+EXPERIENCE
+Senior Biostatistician, Medisearch (Apr 2018 - Present)
+- Ran survival analyses and mixed models in R for 11 clinical trials.
+- Built Shiny dashboards for trial monitoring committees.
+- Produced regulatory tables and listings in SAS.
+
+Statistical Programmer, Pharmalytics (Jun 2016 - Mar 2018)
+- Programmed SAS datasets for oncology studies.
+
+EDUCATION
+M.Sc. Biostatistics, AIIMS Delhi, 2016

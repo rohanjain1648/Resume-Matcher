@@ -1,0 +1,21 @@
+Name: Neha Kapoor
+Headline: Full Stack Web Developer
+
+SUMMARY
+4 years building web applications end to end. I like clean APIs and small, testable React components.
+
+SKILLS
+Node.js, React, MongoDB, Express, REST API design, HTML, CSS, JavaScript (ES6), Postman, Git, Heroku
+
+EXPERIENCE
+Full Stack Developer, Brightline Retail (Aug 2021 - Present)
+- Built an order management system with Node.js and MongoDB that processes 800 orders a day.
+- Created the customer portal in React with protected routes and role based access.
+- Wrote Express middleware for validation, logging and rate limiting.
+
+Web Developer, PixelForge (Jul 2020 - Jul 2021)
+- Developed 12 responsive landing pages in React and wired them to REST endpoints.
+- Added MongoDB aggregation pipelines for the sales report page.
+
+EDUCATION
+BCA, Delhi University, 2020

@@ -1,0 +1,20 @@
+Name: Rahul Verma
+Headline: Full-stack developer (Next.js / PostgreSQL)
+
+SUMMARY
+3 years of experience. I build SaaS dashboards with Next.js and TypeScript and care about performance.
+
+SKILLS
+Next.js, React, TypeScript, PostgreSQL, Prisma, Node.js, tRPC, Tailwind CSS, Vercel, GitHub Actions
+
+EXPERIENCE
+Full Stack Engineer, Loopdesk (Jan 2022 - Present)
+- Built a subscription billing dashboard in Next.js and TypeScript used by 3,000 customers.
+- Designed a PostgreSQL schema with Prisma and wrote the REST and tRPC endpoints on Node.js.
+- Set up CI with GitHub Actions and preview deployments on Vercel.
+
+Junior Developer, Orbit Apps (Jun 2021 - Dec 2021)
+- Fixed UI bugs in a React Native and React web codebase.
+
+EDUCATION
+B.E. Information Technology, VIT Vellore, 2021

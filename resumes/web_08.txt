@@ -1,0 +1,20 @@
+Name: Ishita Rao
+Headline: Frontend / Full Stack Developer
+
+SUMMARY
+Vue.js specialist with 3 years of experience. Enjoy building fast interfaces on top of Express and MongoDB backends.
+
+SKILLS
+Vue.js, Vuex, JavaScript, Node.js, Express, MongoDB, REST APIs, Sass, Webpack, Git
+
+EXPERIENCE
+Frontend Engineer, Gridly (Apr 2022 - Present)
+- Built an inventory tracking app in Vue.js with Express and MongoDB behind it.
+- Created reusable Vuex modules and improved Lighthouse performance from 58 to 91.
+- Maintained 14 REST endpoints for stock sync.
+
+Junior Web Developer, Octa Digital (Jul 2021 - Mar 2022)
+- Built marketing sites and form integrations in JavaScript.
+
+EDUCATION
+B.Tech IT, Manipal Institute of Technology, 2021

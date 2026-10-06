@@ -1,0 +1,19 @@
+Name: Meera Pillai
+Headline: Mobile developer
+
+SUMMARY
+3 years React Native. Published 5 apps on the Play Store and App Store.
+
+SKILLS
+React Native, JavaScript, TypeScript, Redux, Firebase, REST APIs, Android Studio, Xcode, Git
+
+EXPERIENCE
+Mobile App Developer, Appnest (Jan 2022 - Present)
+- Developed a food delivery app in React Native with 50k downloads.
+- Integrated Firebase auth and push notifications, plus REST APIs from a Node backend.
+
+Junior Mobile Developer, Appnest (Jan 2021 - Dec 2021)
+- Built screens and navigation for a fitness tracking app.
+
+EDUCATION
+B.Tech CSE, Anna University, 2020

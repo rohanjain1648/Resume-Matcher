@@ -1,0 +1,23 @@
+Name: Tarun Bhatia
+Headline: Analytics Manager
+
+SUMMARY
+9 years in analytics, managing a team of 6 analysts for an e-commerce company. Mix of hands-on SQL work and stakeholder management.
+
+SKILLS
+SQL, Looker, Python, Excel, Google BigQuery, KPI design, A/B testing, Team leadership, Stakeholder management
+
+EXPERIENCE
+Analytics Manager, Shopmint (Jan 2019 - Present)
+- Lead 6 analysts covering marketing, supply chain and pricing analytics.
+- Defined the company KPI tree and built Looker dashboards on BigQuery.
+- Ran 40+ A/B tests; the checkout redesign alone added 4% conversion.
+
+Senior Analyst, Shopmint (Jun 2016 - Dec 2018)
+- Wrote SQL and Python for weekly business reviews.
+
+Analyst, Marketwise Research (Jul 2014 - May 2016)
+- Excel based market sizing and survey analysis.
+
+EDUCATION
+MBA, XLRI Jamshedpur, 2014

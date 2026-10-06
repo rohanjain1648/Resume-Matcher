@@ -1,0 +1,20 @@
+Name: Priya Menon
+Headline: Data Analyst
+
+SUMMARY
+Data analyst with 3 years of experience turning messy sales and operations data into dashboards that managers actually use.
+
+SKILLS
+SQL, Tableau, Excel (pivot tables, VLOOKUP), Python (pandas), A/B testing, Google Analytics, Data cleaning
+
+EXPERIENCE
+Data Analyst, Zomatrix Foods (Feb 2022 - Present)
+- Wrote SQL on a PostgreSQL warehouse to track delivery times, which helped cut late orders by 18%.
+- Built 15 Tableau dashboards for the city operations teams.
+- Cleaned and joined 6 data sources with pandas before weekly reporting.
+
+Junior Analyst, Retailio (Jul 2021 - Jan 2022)
+- Prepared weekly Excel reports and pivot tables for the merchandising team.
+
+EDUCATION
+B.Com (Hons), Loyola College, 2021
