@@ -1,0 +1,68 @@
+Name: Anumoy Nandy
+
+·
+West Bengal, India
+EXPERIENCE
+Software Engineer Intern, Razorpay
+- Implemented 100% layout and func-
+tionalities of the interfaces using React
+Native.
+- Incorporated 5 APIs from the back-
+end to show real-time data to the mer-
+chants.
+- Improved the efficiency of the appli-
+cation by 70% than the existing one.
+EDUCATION
+- B.E Information Technology
+Jadavpur University
+2020-2024
+HONORS & AWARDS
+- Among top 0.2% global coders at Leetcode,
+with a maximum rating of 2558.
+- Currently 5* coder at Codechef with a peak
+rating of 2043.
+- Expert at codeforces (among top 1000 Indian
+coders with highest rating - 1626).
+- Secured a global ranking of 67 out of 50000
+participants at Codegoda Contest.
+- Attained a ranking of 319-th (worldwide) out
+of countless participants in Google Kickstart
+Round D, 2022.
+- Successfully cleared Google Code Jam
+and
+Google Hash Code competitions.
+- Secured a Global Rank of 148 (AIR - 39) in
+Google Farewell Round 2023.
+SKILLS
+- C++
+- Java
+- React.js
+- Node.js
+- Express.js
+- MongoDB
+- Hibernate
+- MySQL
+- Spring
+PROJECTS
+Instagram clone App Link
+ReactJS . NodeJS . ExpressJS . MongoDB
+- Added robust authentication and authoriza-
+tion functionalities for seamless Sign up, Lo-
+gin, and Logout activities with 100% security.
+- Included Follow, Unfollow, Like and Unlike
+features to enhance user engagement for 100+
+active users.
+Food Ordering App Link
+ReactJS . NodeJS . ExpressJS . MongoDB
+- Contained secure authentication and autho-
+rization for signup, login, and logout activi-
+ties with 100% security.
+- Allow users to add 25+ food items to their cart
+and provide order history tracking function-
+ality.
+Technical Blog Website Link
+Servlet . JSP . MySQL
+- Allow users to post blogs and to update user
+details. Users can filter posts as well.
+- Proper authorization is provided before ac-
+cessing like, comment, Follow features.

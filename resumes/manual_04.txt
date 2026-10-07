@@ -1,0 +1,51 @@
+Name: Arghyadip Sengupta
+
+Kolkata, West Bengal
+
+ï arghyadip-sengupta
+Education
+Jadavpur University
+December 2020 - June 2024
+Bachelors of Engineering in Electronics and Telecommunication Technology (CGPA of 8.7)
+Kolkata, West Bengal, India
+MDB DAV Public School
+March 2019 - March 2020
+Class XII CBSE (Percentage of 94.8)
+Bankura, West Bengal, India
+Projects
+Bus Booker | Flask, Firebase, SQLite, Flutter | Live Link | GitHub Link
+- A WebApp which allows users to book bus ticket along with their desired seat number and bus for a specific date. Users
+can also cancel the booking.
+- Implemented CRUD functionality in SQL Database via Flask API routes. Integrated EmailJs API to send user the
+ticket details and also to send email for password reset.
+- Users can rate their bus journey, cancel a booked ticket in the My Bookings panel of User account.
+- Integrated RazorPay Test Mode API for payment.
+- Added separate Firebase firestore database for Admin panel to respond to the queries of users.
+Tab Locker | JavaScript, HTML | Download Link | GitHub Link
+- A Chrome Extension which can lock a tab using an user defined 4 digit PIN.
+- On opening an URL for the first time or switching to other tabs will trigger the extension to lock the tab
+- To ensure security, created a .reg file, which, upon installing will prevent the extension from being uninstalled by
+strangers.
+Personal Portfolio | Firebase, Flutter, Rive | Live Link | GitHub Link
+- A Personal Portfolio website listing my projects, achievements and the tech stacks I know about.
+- Integrated serveral interactive animations built in Rive to the website
+- Used Flutter for frontend and Firebase firestore database for collecting the data of Contact Me form.
+Achievements
+- Won the Polygon - Devfolio Hackathon Season Prize by submitting our project to Double Slash hackathon on
+Devfolio platform.
+- Highest rating of 1862 at Leetcode, which is the top site in terms of participation of programmers across the globe.
+- Ranked under top 5.78 percent in Leetcode.
+- Highest rating of 1769 at Codechef, which is the top site in terms of competitive programming across the globe.
+- Secured a global rank of 5075 in Google Kickstart.
+Profile Links
+- LeetCode
+- CodeChef
+- GitHub
+Areas of Interest
+- Data Structures and Algorithms
+- DataBase Management System (DBMS)
+- OOPS Concepts (C++)
+- Operating System
+Technical Skills
+Languages: C++, C, Dart, MySQL, JavaScript
+Technologies/Frameworks/Libraries: Flutter, Flask, SQLite, Firebase, HTML

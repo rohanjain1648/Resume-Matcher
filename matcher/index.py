@@ -34,7 +34,8 @@ class ResumeIndex:
         for p in sorted(self.dir.glob("*.pkl")):
             with open(p, "rb") as f:
                 d = pickle.load(f)
-            self.docs[d["id"]] = d
+            if d["doc_vec"].shape[0] == embedder.dim():     # skip entries made with a different embedding model
+                self.docs[d["id"]] = d
         self._build_vocab()
 
     def add_text(self, doc_id: str, text: str, source: str = "") -> bool:
@@ -78,10 +79,10 @@ class ResumeIndex:
                     keys.append(k)
                     vecs.append(v)
         self.vocab_keys = keys
-        self.vocab = np.vstack(vecs) if vecs else np.zeros((0, embedder.DIM), np.float32)
+        self.vocab = np.vstack(vecs) if vecs else np.zeros((0, embedder.dim()), np.float32)
         allb = [d["bullet_vecs"] for d in self.docs.values() if len(d["bullet_vecs"])]
-        self.bullet_bg = np.vstack(allb) if allb else np.zeros((0, embedder.DIM), np.float32)
+        self.bullet_bg = np.vstack(allb) if allb else np.zeros((0, embedder.dim()), np.float32)
         allt = [d["title_vecs"] for d in self.docs.values() if len(d["title_vecs"])]
-        self.title_bg = np.vstack(allt) if allt else np.zeros((0, embedder.DIM), np.float32)
+        self.title_bg = np.vstack(allt) if allt else np.zeros((0, embedder.dim()), np.float32)
         self.doc_ids = list(self.docs)
-        self.doc_bg = np.vstack([self.docs[i]["doc_vec"] for i in self.doc_ids]) if self.docs else np.zeros((0, embedder.DIM), np.float32)
+        self.doc_bg = np.vstack([self.docs[i]["doc_vec"] for i in self.doc_ids]) if self.docs else np.zeros((0, embedder.dim()), np.float32)

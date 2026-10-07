@@ -1,0 +1,86 @@
+Name: Anjan Agarwala
+
+EDUCATION
+JADAVPUR UNIVERSITY
+B.Eng in Information
+Technology
+June 2021 | Kolkata, India
+CGPA: 8.6 / 10
+ST. XAVIER'S SCHOOL
+2015 | Raiganj, India
+97% ICSE 2015
+Baylore:// ICPC ID
+COURSEWORK
+UNDERGRADUATE
+Database Management Systems
+Operating Systems
+Data Structures and Algorithms
+Object Oriented Programming in C++
+& Java
+Computer Networks
+SKILLS
+PROGRAMMING
+Over 5000 lines:
+C • C++ • Python
+Over 1000 lines:
+Java • JavaScript • Nodejs • Python
+HTML
+Familiar:
+Ruby • Django • CSS • MySQL Other
+Tools:
+- Jira • Git • Github • Bitbucket
+CERTIFICATES
+Codechef Certified Advanced
+Level Exam
+Cleared the exam with full scholarship
+after being placed in Top 100
+participants globally in codechef’s
+contest COOK100A
+CERTIFICATE URL
+EXPERIENCE
+AMAZON | Software Development Engineer II
+July 2021 - Present | Bangalore, INDIA
+- Part of the Amazon Associates which provides tools for creators to advertise
+Amazon’s Catalog. Developer Point of Contact for 3 major services for creators
+which drives major portion of Associates traffic to Amazon.
+- Worked on redesign and improvement of Amazon Cart Page for Associates
+using Java, JSP, HTML, CSS and internal tools.
+- Part of project which added support for associates to create affiliate links right
+from their Amazon shopping app in both Android and iOS.
+- Moved to Reporting team, lead the work for Reporting back-end for Mobile app
+targeted for influencers. Worked with multiple stakeholders to drive consensus
+on data privacy and design. Use AWS EMRs, MWAA, S3, ECS for multiple
+reporting APIs that powered the reporting interface.
+- Got promoted to SDE II in July 2023. Post that lead multiple Operation
+Excellence initiatives for the team like local testing and cost improvements of
+services owned by team.
+- Currently working on a project for a new report targeted for influencers and
+working on both front-end and back-end components.
+SIGNZY | Backend Engineer Intern
+March 2021 – June 2021 | Bangalore, INDIA
+- Developed and improved several APIs used by banking and fintech companies.
+Worked end to end on the APIs; added it to common API gateway, billing and
+throttling support, add it to web site for users to test out the api and read usage
+documentation.
+- Used technologies like Python, Nodejs for Backend and MongoDB, MySQL for
+storage Redis, ElasticSearch for caching response data, Angular JS on the
+frontend for documentation and testing for new customers.
+AMAZON | Software Development Engineer Intern
+April 2020 – June 2020 | Remote
+- Used Amazon’s Internal APIs to develop a chrome extension using Javascript
+and Chrome APIs for scrapping a web page and extracting relevant hyperlinks.
+The extension collected important data about the hyperlinks from internal
+servers and parsed them as tooltip for users. Successfully created script to
+make Digest Access Authentication from javascript itself.
+- Explored Lambda, DynamoDB and other AWS tools as part of the project for
+alternative approaches. Also created wrapper API to bypass issue of Digest
+Access Authentication in javascript.
+AWARDS & ACHIEVEMENTS
+- Candidate Master on Codeforces with max rating 2099, 79th Country Rank ;
+6 stars on Codechef with highest rating of 2238 with Country rank 201
+- Ranked 67 th in ICPC India online round 2019 among 10,000+ teams and
+represented the college team at ICPC Regionals at Amritapuri and Kanpur.
+- Best Rank of 217 in Google Kickstart contests.
+- Finalist of TopCoder Open India Regionals 2019 Algorithm Track(29th onsite
+rank), Humblefool cup by IIIT Allahabad(4th onsite rank) . Facebook
+Hackercup 2018 Rank 1460 globally.

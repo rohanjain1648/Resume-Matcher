@@ -37,7 +37,7 @@ def main():
     s = sub.add_parser("add"); s.add_argument("file")
     s = sub.add_parser("match")
     s.add_argument("--role", default=""); s.add_argument("--jd", default=""); s.add_argument("--jd-file")
-    s.add_argument("--json", action="store_true"); s.add_argument("--top", type=int, default=5)
+    s.add_argument("--json", action="store_true"); s.add_argument("--top", type=int, default=3)
     a = ap.parse_args()
     idx = ResumeIndex(a.index_dir)
     if a.cmd == "index":

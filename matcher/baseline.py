@@ -9,7 +9,7 @@ def keywords(text):
     return {t for t in tokens(text) if t not in STOP and t not in FILLER and not re.fullmatch(r"\d+\+?", t)}
 
 
-def rank(index, role, jd, top_k=5):
+def rank(index, role, jd, top_k=3):
     kws = keywords(role + " " + jd)
     out = []
     for d in index.docs.values():

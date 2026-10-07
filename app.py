@@ -20,7 +20,7 @@ PAGE = """<!doctype html><title>Resume Matcher</title>
 <form method=post action="/">
 <label>Role<br><input name=role value="%(role)s"></label><br><br>
 <label>Job description<br><textarea name=jd rows=7>%(jd)s</textarea></label><br><br>
-<button>Find top 5</button> <small>%(n)d resumes indexed</small></form>%(out)s"""
+<button>Find top 3</button> <small>%(n)d resumes indexed</small></form>%(out)s"""
 
 
 def render(out):
@@ -42,14 +42,14 @@ def render(out):
 def home():
     role, jd, out = request.form.get("role", ""), request.form.get("jd", ""), ""
     if request.method == "POST" and (role or jd):
-        out = render(match_all(index, role, jd, 5))
+        out = render(match_all(index, role, jd, 3))
     return PAGE % {"role": html.escape(role), "jd": html.escape(jd), "out": out, "n": len(index.docs)}
 
 
 @app.post("/api/match")
 def api_match():
     j = request.get_json(force=True)
-    return jsonify(match_all(index, j.get("role", ""), j.get("jd", ""), int(j.get("top", 5))))
+    return jsonify(match_all(index, j.get("role", ""), j.get("jd", ""), int(j.get("top", 3))))
 
 
 @app.post("/api/resumes")

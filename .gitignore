@@ -5,3 +5,7 @@ __pycache__/
 scratch/
 knowledge_cache.json
 index/
+*.stackdump
+
+# real resumes supplied as PDFs (personal data); only the cleaned .txt copies are tracked
+resumes/*.pdf

@@ -1,0 +1,65 @@
+Name: Ahana Datta
+
+217, Block A, Bangur Avenue, Kolkata 700055 —— Ph:
+Ð Leetcode
+ï
+§
+Education
+Kalinga Institute of Industrial Technology [KIITEE Merit Rank: 661]
+Oct. 2021 – Aug 2025
+Bachelor of Technology - Computer Science and Engineering [CGPA: 9.18]
+Bhubaneswar, Odisha
+Relevant Coursework: Object Oriented Programming, Data Structures and Algorithms, Operating Systems,
+Database Management, Artificial Intelligence, Software Engineering, Computer Networks
+Modern High School for Girls, Kolkata: ISC (.5%
+Technical Skills
+Languages: Java, Javascript, C/C++, HTML/CSS, Python, SQL, Shell Script, C-Sharp
+Frameworks: NodeJS, ExpressJS, Microsoft Mesh
+Tools: GitHub, Postman, Figma, Git
+Databases: MongoDB, PostgreSQL, MySQL, Firebase
+Platforms: Linux, Ubuntu, WSL, Windows, Google Cloud, Unity, Metaverse
+Soft Skills: Team Work(Team Lead Positions), Critical Thinking, Leadership, Effective Communication
+Experience
+Accenture
+May 2023 - July 2023
+Software Engineering Intern
+Kolkata, West Bengal
+- Designed and developed cutting-edge, dynamic and responsive gaming solutions with robust software architecture using
+C-Sharp, Unity, and Microsoft Mesh
+- Developed and deployed a responsive text-to-speech and speech-to-text bot on the Unity platform, leveraging advanced
+technologies including GPT-based chat interfaces and Azure Cognitive Services for a comprehensive and
+sophisticated user interaction experience
+- Extensively employed C-Sharp programming language and Microsoft Mesh framework to architect and
+implement diverse functionalities within Virtual World projects, demonstrating proficiency in cutting-edge software
+engineering practices
+Projects
+SocioPath - A Modern Social Media (Backend, Frontend)
+September 2023
+- Full-stack responsive web application and ultimate hub for extroverts. One can connect, schedule meets, save memories,
+and express themselves freely. It represents a contemporary perspective to the landscape of modern social media.
+- Tech Stack: Node.js, React.js, Express.js, Redux, MongoDB, Postman
+T-Shirt Customization Website (Web Link, Code Link)
+August 2023
+- Developed and hosted a clean responsive web application (Personalized T Shirt customization based on Colour/Design
+and AI driven choices) available on both android/mac with 98.77 % AI accuracy in detecting user’s choice of action
+- Tech Stack: React.js, Three.js, Tailwind, CSS, MongoDb, Git
+An elegant user interface resembling Chat-gpt (Backend, Frontend)
+July 2023
+- A clean and responsive chat interface with advanced GPT-3 model api. Possesses ability to ask api for help and code
+translation. Flexible to incorborate other GPT models from open source services.
+- Tech Stack: Node.js, Express.js, React.js, CSS, GPT-3
+Awards and Certifications
+- GDSC KIIT:
+DevSprint’22 GDSC ’Best Project in Student Community’(Hackathon)(Link)
+- Coding Ninjas:
+Ranked AIR 618 in an All India Coding Competition(Link)
+- Google:
+Skill badges on Google Cloud and Generative AI(Link)
+- Oracle:
+Certified Cloud Infrastructure and Oracle Cloud Data Management associate(Link)
+Leadership and Co-curricular
+Athletics
+Represented WB and NE States as Captain in the Throwball and TT National Games held in Ludhiana.
+Winner in Basketball District Championship and selected as goalkeeper of Kolkata Women’s Football team
+Anchoring and Public Speaking
+Member of Kalliope (KIIT anchoring club), hosted, organised and anchored numerous college events throughout.

@@ -1,4 +1,4 @@
-# Expected top 5 — written BEFORE running the system on JD 2
+# Expected ranking (top 3 are what the final system returns; ranks 4-5 kept for reference) — written BEFORE running the system on JD 2
 
 Written 2026-10-06 ~21:15 IST, from reading the resume files by hand.
 Honesty note: JD 1 is the brief's sample JD and I had already run it a few times while debugging the matcher, so my

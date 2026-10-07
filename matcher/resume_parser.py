@@ -20,10 +20,16 @@ SECTION_NAMES = {
     "education": "education", "academics": "education", "qualifications": "education",
     "certifications": "other", "certification": "other", "achievements": "other", "languages": "other",
     "interests": "other", "hobbies": "other",
+    "awards": "other", "honors": "other", "honours": "other", "awards and certifications": "other",
+    "honors & awards": "other", "honors and awards": "other", "certificates": "other", "links": "other",
+    "profile links": "other", "coursework": "other", "areas of interest": "other", "references": "other",
+    "leadership and co-curricular": "other", "awards & achievements": "other", "awards and achievements": "other",
+    "achievements & awards": "other", "honors & achievements": "other", "positions of responsibility": "other", "extracurricular activities": "other", "co-curricular": "other",
+    "volunteering": "other", "publications": "other",
     "personal details": "personal", "personal information": "personal", "personal": "personal",
 }
 HEADING_RE = re.compile(r"^\s*([A-Za-z ]{3,30}?)\s*:?\s*$")
-INLINE_RE = re.compile(r"^\s*([A-Za-z ]{3,25}?)\s*:\s*(\S.*)$")
+INLINE_RE = re.compile(r"^\s*([A-Za-z /]{3,40}?)\s*:\s*(\S.*)$")
 PERSONAL_RE = re.compile(
     r"^\s*(age|dob|date of birth|gender|sex|marital status|father'?s? name|nationality|religion|college|university|"
     r"school|address|photo)\b.*$", re.I)
@@ -106,6 +112,12 @@ def split_sections(text: str):
             current = SECTION_NAMES[h.group(1).strip().lower()]
             continue
         i = INLINE_RE.match(line)
+        if i and current == "skills":
+            lab = i.group(1).strip().lower()
+            if lab not in SECTION_NAMES or SECTION_NAMES[lab] in ("skills", "other"):
+                # "Frameworks: NodeJS, ExpressJS" / "Languages: Java, C++" inside a skills section: keep the items
+                sections.setdefault(current, []).append(i.group(2).strip())
+                continue
         if i and i.group(1).strip().lower() in SECTION_NAMES:
             sec = SECTION_NAMES[i.group(1).strip().lower()]
             sections.setdefault(sec, []).append(i.group(2).strip())
@@ -121,7 +133,7 @@ def _split_skill_items(lines):
     for line in lines:
         for chunk in re.split(r"[,;|•\n](?![^(]*\))|\s{2,}", line):
             chunk = chunk.strip(" -*•\t.")
-            if not chunk:
+            if not chunk or chunk.endswith(":"):      # empty, or a sub-heading such as "Familiar:"
                 continue
             inner = re.findall(r"\(([^)]*)\)", chunk)
             outer = re.sub(r"\([^)]*\)", "", chunk).strip(" -")
@@ -158,15 +170,27 @@ def parse_resume(text: str, as_of: date = None) -> dict:
     bullets, titles = [], []
     if headline:
         titles.append(headline)
-    for line in exp_lines + summary_lines:
-        s = line.strip()
+    all_lines = [l.strip() for l in exp_lines + summary_lines]
+    for n, s in enumerate(all_lines):
         if not s:
             continue
         hm = JOB_HEADER_RE.match(s)
         if hm:
             titles.append(hm["title"].strip())
             continue
+        is_bullet = s[0] in "-*•"
         s = s.lstrip("-*• ").strip()
+        rest = DATE_RANGE_RE.sub("", s)
+        if not is_bullet and DATE_RANGE_RE.search(s) and len(rest.split()) < 6:
+            # header laid out over several lines: "Company / May 2023 - July 2023 / Software Engineering Intern"
+            for part in re.split(r"\|", rest):
+                if len(part.split()) <= 8 and re.search(r"[A-Za-z]{3}", part):
+                    titles.append(part.strip(" ,-"))
+            for m in (n - 1, n + 1):
+                nb = all_lines[m] if 0 <= m < len(all_lines) else ""
+                if nb and nb[0] not in "-*•" and 1 <= len(nb.split()) <= 8 and not DATE_RANGE_RE.search(nb):
+                    titles.append(nb.split("|")[-1].strip(" ,-"))
+            continue
         for sent in (split_sentences(s) if len(s) > 160 else [s]):
             if len(sent.split()) >= 3 and not DATE_RANGE_RE.fullmatch(sent):
                 bullets.append(sent)

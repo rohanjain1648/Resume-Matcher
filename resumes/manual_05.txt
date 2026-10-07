@@ -1,0 +1,92 @@
+Name: Bikash Sah
+
+EDUCATION
+JADAVPUR UNIVERSITY
+B.E in Computer Science
+CGPA: 8.60 / 10
+2020 - Present | Kolkata
+MAHAVIR HIGH SCHOOL
+WBCHSE(Class XII)
+Percentage: 93.2%
+2020 | Birpara, Alipurduar
+RMHSS
+ICSE(Class X)
+Percentage: 96.2%
+2018 | Falakata, Alipurduar
+COURSEWORK
+UNDERGRADUATE
+Data Structures and Algorithms
+Design and Analysis of Algorithms
+Object Oriented Programming
+Operating Systems
+Computer Networks
+Database Management System
+Compiler Design
+Theory of Computation
+Artificial Intelligence
+SKILLS
+PROGRAMMING ,
+TOOLS AND FRAMEWORKS
+Experienced:
+- C • C++ • Motoko
+- HTML • CSS • TailwindCSS
+- ReactJS • ExpressJS• NodeJS
+- Shell • QT Framework • MySQL
+Intermediate:
+- Java • JavaScript • Assembly(8085)
+- Internet Computer Blockchain
+Familiar:
+Python • Git • GitHub
+Operating Systems:
+- Unix • MacOs
+PROJECTS
+BHARAT TOKEN | Github | Hosted Link
+- Created a Cryptocurrency, Bharat Token, on the ICP Blockchain
+utilizing Motoko backend.
+- Developed a user-friendly web platform allowing users to Claim, Check
+balances, and Transfer Bharat Tokens securely.
+- Implemented Internet Identity for authentication, utilizing anonymous
+techniques via Digital Signatures.
+- Frontend : HTML • CSS • ReactJS
+- Backend : Motoko
+NFT MARKETPLACE | Github
+- Established a cutting-edge Web 3 platform enabling users to mint, buy,
+and sell NFTs exclusively using BharatToken.
+- Demonstrated a practical use case for BharatToken by creating a
+dynamic marketplace for NFT enthusiasts.
+- Implemented a specialized NFT Class Actor with key APIs for fetching
+NFT details, including content, ownership, and pricing.
+- Stored NFT content as Binary Large Objects (BLOB) for efficient image
+representation and HashMaps for ownership relationship.
+- Frontend : HTML • CSS • ReactJS
+- Backend : Motoko
+GRAPHIC VISUALIZER | Github
+- Developed an Qt Application to visualize the Graphics Primitives.
+- Implemented Efficient Filling Algorithms such as flood-fill and
+boundary-fill.
+- Implemented the transformations like rotation, scaling, shear,
+reflection and clipping.
+- Tech Stack: C++ ( QT Framework)
+ACHIEVEMENTS
+2023
+Ranked 312 out of 10k+ students
+in Starters 98
+2023
+Acheived Contest rating of 1743 (Max)
+2021
+Acheived 2.3k+ Subscribers and 200k+ Views
+2020
+WBJEE
+Ranked 398 out of 1 lakh+ students
+2020
+JEE MAINS
+Acheived 99.30 Percentile out of
+10 lakh+ students
+2018
+INTER-ICSE Debate
+Acheived 1st Postion out of 100+ ICSE
+Schools in North Bengal at St. James School
+EXTRACURRICULARS
+- My hobbies are Making YouTube videos, Creating products and
+watching movies and animes, Problem Solving.
+- Helping students in Coding at Chegg Q&A Authoring platform.

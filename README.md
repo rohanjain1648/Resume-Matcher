@@ -1,7 +1,7 @@
 # Resume Matcher
 
-Paste a role + job description, get the 5 best resumes with a score, matched/missing skills, a one-line reason and a
-supporting line from the resume. 33 sample resumes are in `resumes/` (web, data, sales, HR, marketing, QA, design).
+Paste a role + job description, get the top 3 resumes with a score, matched/missing skills, a one-line reason and a
+supporting line from the resume. 38 sample resumes are in `resumes/` (web, data, sales, HR, marketing, QA, design, 5 real hand-made ones).
 
 ## Run it
 
@@ -15,7 +15,9 @@ python evaluate.py                    # the 2-JD check (writes eval/results.md)
 python checks/test_bias_and_incremental.py
 ```
 
-First run downloads `BAAI/bge-small-en-v1.5` (about 130 MB). Needs internet only for that and for the optional
+First run downloads the embedding model `BAAI/bge-base-en-v1.5` (about 440 MB, needs roughly 1 GB free RAM). On a
+low-RAM machine set `MATCHER_MODEL=BAAI/bge-small-en-v1.5` (130 MB) and re-run `cli.py index` (entries made with a
+different model are re-embedded automatically). Needs internet only for that and for the optional
 Wikipedia lookup below; both degrade gracefully (see "What does not work").
 
 ## How the matching works
@@ -57,40 +59,50 @@ reproducible; the sample resumes were written around then.
 
 ## Resumes (`resumes/`)
 
-33 files: 12 web/mobile/devops, 8 data, 5 sales, 5 HR, 1 marketing, 1 QA, 1 design; 0 to 11 years.
+38 text files: 12 web/mobile/devops, 8 data, 5 sales, 5 HR, 1 marketing, 1 QA, 1 design (`web_*`, `data_*`, `sales_*`,
+`hr_*`, `mkt_01`, `qa_01`, `design_01`: AI-drafted, deliberately varied in style) plus **5 real, hand-made resumes**
+(`manual_01`..`manual_05`: students / early-career developers; one is an SDE II). Experience ranges from 0 to 11 years.
+The 5 real ones were supplied as PDFs (kept next to the `.txt` copies). `tools/pdf_to_txt.py` converts them: text
+extraction, contact details (email, phone, links) removed, a `Name:` line added. One extra PDF
+(`Anupam Ghosh_...pdf`, a course-completion letter, not a resume) was skipped by the same script. They have different
+layouts (multi-column, titles on a separate line from the dates, "Languages: ..." sub-labels, projects instead of jobs),
+which is what drove the parser improvements for headings, skill labels and multi-line job headers.
 Tricky cases: `web_02` (Node, React, MongoDB, Express, never says "MERN"), `web_07` (about 38 skills, no experience),
-`web_08` / `web_09` (near-identical), `web_05` (Java vs JavaScript), `data_04` / `hr_03` / `sales_03` (freshers).
-`data_05`, `sales_03`, `hr_03` are free-form paragraphs with no headings and `web_11` is a hybrid role, so the parser is
-tested on different layouts. **Honest note:** I drafted all resumes with an AI tool. I made them deliberately different
-in style, but the brief asks you to hand-write or hand-edit at least 5 and I have not done that: please edit a few
-yourself (the paragraph-style ones above are the best candidates).
+`web_08` / `web_09` (near-identical), `web_05` (Java vs JavaScript), `data_04` / `hr_03` / `sales_03` (freshers),
+`manual_03` / `manual_04` (MERN-style skills shown only in projects, no dated job).
+`data_05`, `sales_03`, `hr_03` are free-form paragraphs with no headings.
 
 ## 2-JD check (`eval/expected.md` written first, results in `eval/results.md`)
 
-Expected top 5 were written before the run (JD 1 is not fully blind: it is the brief's sample and I had run it while
+Expected rankings (top 3 scored here; I also wrote down ranks 4-5) were written before the run (JD 1 is not fully blind: it is the brief's sample and I had run it while
 debugging; JD 2 is blind). Baseline = count of JD words that appear verbatim in the resume.
 
 | | Matcher | Keyword baseline |
 |---|---|---|
-| JD 1 MERN, overlap with my expected top 5 | 5/5 (order also as expected) | 3/5 (ranks `web_03`, `web_04` over `web_08/09`) |
-| JD 2 Data Analyst, overlap with expected | 4/5 | 4/5 |
+| JD 1 MERN, overlap with my expected top 3 | 2/3 (`web_01`, `web_02` as expected; rank 3 is `web_06`, Angular+Node+Express, which I had at 5) | 2/3 (rank 3 is `web_03`) |
+| JD 2 Data Analyst, overlap with expected top 3 | 3/3 (order as expected) | 2/3 (rank 3 is `data_04`, a 1-year fresher, for a 2+ years role) |
+
+Numbers above are with `bge-base`. With the smaller `bge-small` the matcher scored 3/3 on JD 1 (the Vue pair at 3-4 and
+`web_06` at 5) and 3/3 on JD 2: thresholds were tuned on `bge-small`, so the bigger model reshuffles the close calls
+(`web_06` vs the `web_08/09` pair differ by about 6 points). I did not re-tune to match my expectations. `web_06` at 3 is
+defensible: it shows web apps in its work history, which the Vue pair does not.
 
 Where the matcher did better:
 * JD 1: found `web_02` (Node/React/Mongo/Express, no "MERN") at rank 2 with a reason. A pure keyword search only
   gets it because it shares "web", "REST", "apps".
 * JD 1: both Vue + Express + MongoDB resumes rank 3-4 as "MERN-like", flagged as near-identical, while the
   baseline lets a React-only, non-MongoDB resume in.
-* Skill-stuffer (`web_07`) stays out of the top 5 on the 4 JDs I tried (rank 14 on MERN, 31 on Data Analyst); its
+* Skill-stuffer (`web_07`) stays out of the top 3 on the 4 JDs I tried (rank 14 on MERN, 31 on Data Analyst); its
   skills are marked "listed only". On a JD that just lists many skills (React, Node, Mongo, AWS, Docker, Kubernetes,
   Python, Django) it still reaches rank 8, because its skills line really does contain all of them.
 * Java JD: the Java engineer is first and JavaScript resumes get no credit for "Java".
 
 Where it did worse / got something wrong:
-* JD 2: ranks `data_07` (statistician, R/Shiny dashboards) above `data_05` (data engineer, SQL) and puts `data_02`
-  fifth; I expected `data_05`. Dashboard words in `data_07`'s skills line pulled it up. The baseline also missed this
+* JD 2 (beyond the top 3): ranks `data_07` (statistician, R/Shiny dashboards) above `data_05` (data engineer, SQL) and puts
+  `data_02` fifth; I expected `data_05` at 5. Dashboard words in `data_07`'s skills line pulled it up. The baseline also missed this
   one, so no gain there.
-* JD 2: the baseline put the 1-year fresher `data_04` third; the matcher correctly pushes that person down (experience
-  shortfall), but still shows it at rank 7 of 33, not lower.
+* JD 2: the baseline put the 1-year fresher `data_04` third (a real top-3 mistake); the matcher correctly pushes that person down (experience
+  shortfall), but still shows it at rank 7 of 38, not lower.
 * Noisy "related" labels: e.g. "Kubernetes (counts as Spring Boot)" and "AWS (counts as REST APIs)" in lower-ranked
   candidates. The related credit is small, so the ranking is not hurt, but the label is wrong and a recruiter would
   notice.
@@ -109,7 +121,7 @@ Where it did worse / got something wrong:
   "ability to work in fast paced environments" yields junk requirements). Years are read from dates; resumes with
   no dates and no stated years count as 0.
 * "Experience" is total years, not years in the relevant skill.
-* One language only (English), only plain `.txt` resumes (no PDF parsing), 33 resumes (no scale testing; scoring is a
+* One language only (English), only plain `.txt` resumes (no PDF parsing), 38 resumes (no scale testing; scoring is a
   few matrix products per resume, fine up to thousands but not tuned).
 * Weights (55/15/15/15, thresholds) were set by hand on these two JDs plus a few probes, so they are over-fitted
   to this small set; there is no labelled data to tune properly.
